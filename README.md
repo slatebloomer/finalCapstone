@@ -12,7 +12,7 @@ These were the instructions that I was given to guide me in this task. They shou
 
 Code a Python program that will read from the text file inventory.txt and perform the following on the data, to prepare for presentation to your managers:
 
-- Create a class named Shoes with the following attributes:
+- We’ve provided a template for you in a file named inventory.py. In this file create a class named Shoes with the following attributes:
   - country,
   - code,
   -  product,
@@ -33,4 +33,24 @@ Code a Python program that will read from the text file inventory.txt and perfor
   - highest_qty - Write code to determine the product with the highest quantity and print this shoe as being for sale.
 - Now in your main create a menu that executes each function above. This menu should be inside the while loop. Be creative!
 ## Usage
-- Select from the following options: [image](https://user-images.githubusercontent.com/118348134/209867795-767f6402-112e-44aa-bee7-8ef86251b2c4.png)
+Select from the following options: 
+
+![Screenshot1](Menu.png)
+
+If 'a' is selected the user is prompted to input the following data, which is then uploaded to inventory.txt
+![Screenshot2](a.png)
+
+If 'd' is selected the user is asked to enter a product code. If they enter a code that is not already held in inventory.txt they get an error message. Otherwise they are given options for which data they would like to see
+![Screenshot3](d.png)
+
+If 'i' is selected a breakdown of the data held on each shoe is printed to screen, eg:
+
+![Screenshot4](i.png)
+
+If 's' is selected the user has two options. The first one simply finds the shoe with the lowest stock levels in inventory.txt and prints it to screen: 
+![Screenshot5](s-h.png)
+
+The second offers the user the ability to update stock levels
+![Screenshot6](s-l.png)
+## Credits
+HyperionDev created the initial inventory.py file, which had a template from which I worked
